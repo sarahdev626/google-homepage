@@ -1,0 +1,136 @@
+body {
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+#navigation {
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    display: inline;
+    width: 800px;
+    margin: 0;
+}
+
+#navigation .left li {
+    padding: 10px 10px 10px 0;
+    margin: 5px 5px 5px 0;
+    display: inline-block;
+    float: left;
+}
+
+#navigation .right li {
+    padding: 10px 10px 10px 0;
+    margin: 5px;
+    display: inline-block;
+    float: right;
+}
+
+#navigation .right li img {
+    padding: 0;
+    position:relative;
+    top: -10px;
+}
+
+#navigation .right btn {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(69,131,238);
+    padding: 7px 10px 7px 10px;
+}
+
+#top {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    width: 40%;
+    height: 200px;
+}
+
+#top img {
+    display: block;
+    float: left;
+    
+}
+
+#top #doodle {
+    position: relative;
+}
+
+#top #vanilla {
+    position: relative;
+}
+
+#middle {
+    clear: both;
+    margin: 0 auto;
+}
+
+#bar {
+    clear: both;
+    width: 600px;
+    height:50px;
+    border: 1px solid rgb(223,225,229);
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+input {
+    width: 400px;
+    height: 35px;
+    position: relative;
+    display: inline;
+    border: none;
+}
+
+#search-icon {
+    display: block;
+    float:left;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+
+#microphone {
+    display: block;
+    float: right;
+    margin-right: 10px;
+    margin-top: -30px;
+}
+
+#grey1 {
+    display: inline-block;
+    background-color: rgb(242, 242, 242);
+    width: 150px;
+    height: 20px;
+    font-size: 14px;
+    color: rgb(102,106,109);
+    text-align: center;
+    padding: 10px;
+    margin-left: auto;
+}
+
+#grey2 {
+    display: inline-block;
+    background-color: rgb(242, 242, 242);
+    width: 150px;
+    height: 20px;
+    font-size: 14px;
+    color: rgb(102,106,109);
+    text-align: center;
+    padding: 10px;
+    margin-right: auto;
+}
+
+footer {
+    background-color: rgb(242, 242, 242);
+}
+
+footer li {
+    display: inline-block;
+    font-size: 17px;
+    color: rgb(102,106,109);
+    padding: 15px 20px;
+}
+
