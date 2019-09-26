@@ -54,7 +54,8 @@ body {
 }
 
 #top #doodle {
-    position: relative;
+    width: 425px;
+    margin: 0 auto;
 }
 
 #top #vanilla {
